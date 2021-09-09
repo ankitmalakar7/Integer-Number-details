@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Number Details</title>
+    <link rel="stylesheet" href="indx.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h2>Strong number</h2>
+        <hr />
+        <div class="form-group">
+          <div class="form-group">
+            <label for="num">Number:</label>
+            <input type="text" class="form-control" id="num1" required />
+          </div>
+          <button
+            type="submit"
+            name="submit"
+            onclick="is_strong_number()"
+            class="btn btn-default"
+          >
+            Submit
+          </button>
+        </div>
+        <div id="result1"></div>
+      </div>
+      <div class="row">
+        <h2>Palindrome</h2>
+        <hr />
+        <div class="form-group">
+          <div class="form-group">
+            <label for="num">Number:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="num2"
+              placeholder="Enter a number/word"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            name="submit"
+            onclick="palindrome()"
+            class="btn btn-default"
+          >
+            Submit
+          </button>
+        </div>
+        <div id="result2"></div>
+      </div>
+      <div class="row">
+        <h2>Armstrong number</h2>
+        <hr />
+        <div class="form-group">
+          <div class="form-group">
+            <label for="num">Number:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="num3"
+              placeholder="Enter a positive number"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            name="submit"
+            onclick="armstrong()"
+            class="btn btn-default"
+          >
+            Submit
+          </button>
+        </div>
+        <div id="result3"></div>
+      </div>
+      <div class="row">
+        <h2>Prime number</h2>
+        <hr />
+        <div class="form-group">
+          <div class="form-group">
+            <label for="num">Number:</label>
+            <input type="text" class="form-control" id="num4" required />
+          </div>
+          <button
+            type="submit"
+            name="submit"
+            onclick="prime()"
+            class="btn btn-default"
+          >
+            Submit
+          </button>
+        </div>
+        <div id="result4"></div>
+      </div>
+    </div>
+    <script src="indx.js"></script>
+  </body>
+</html>

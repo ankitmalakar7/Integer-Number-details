@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    border-radius: 25px;
+    box-shadow: coral;
+    padding:inherit;
+    background-color: lightseagreen;
+}
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+.row{
+    margin: 0;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color:goldenrod;
+}
+.btn-container{
+    text-align: center;
+}
+.form-control{
+    /* width: 70%;
+    border: crimson;
+    background-color: aliceblue;
+    padding: 15px; */
+    color:crimson;
+    /* font-size: 1.1rem;
+    border-radius: 10px; */
+}
